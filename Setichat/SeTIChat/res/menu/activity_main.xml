@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    
+    <item android:id="@+id/MnuOpc1" android:title="Confidencialidad"
+          android:icon="@android:drawable/ic_menu_agenda">
+        <menu>
+            <item android:id="@+id/SubMnuOpc1"
+                  android:title="Activar Cifrado" />
+            <item android:id="@+id/SubMnuOpc2"
+                  android:title="Desactivar Cifrado" />
+        </menu>
+    </item>
+	<item android:id="@+id/MnuOpc2" android:title="Integridad"
+          android:icon="@android:drawable/ic_menu_agenda">
+        <menu>
+            <item android:id="@+id/SubMnuOpc3"
+                  android:title="Activar Firma" />
+            <item android:id="@+id/SubMnuOpc4"
+                  android:title="Desactivar Firma" />
+        </menu>
+    </item>
+
+</menu>

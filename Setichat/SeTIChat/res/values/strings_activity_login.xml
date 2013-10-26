@@ -1,0 +1,9 @@
+<resources>
+
+    <!-- Strings related to login -->
+    <string name="telefono">Telefono</string>
+    <string name="nick">Nick</string>
+    <string name="pass">Password</string>
+    <string name="menu_settings">Config</string>
+
+</resources>

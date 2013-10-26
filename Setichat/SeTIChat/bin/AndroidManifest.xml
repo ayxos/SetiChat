@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="es.uc3m.sdm.setichat2013.GR81.NIA100275388.NIA100077141"
+    android:versionCode="1"
+    android:versionName="1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="SeTIChat"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="es.uc3m.sdm.setichat2013.GR81.NIA100275388.NIA100077141.LoginActivity"
+            android:label="Registrate" >
+	        <intent-filter>
+	            <action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+	        </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="es.uc3m.sdm.setichat2013.GR81.NIA100275388.NIA100077141.activity.MainActivity"
+            android:label="SeTIChat" >
+        </activity>
+
+        <service android:name="es.uc3m.sdm.setichat2013.GR81.NIA100275388.NIA100077141.service.SeTIChatService" >
+        </service>
+
+        <activity android:name="es.uc3m.sdm.setichat2013.GR81.NIA100275388.NIA100077141.activity.SeTIChatConversationActivity" >
+        </activity>
+      
+    </application>
+
+</manifest>
